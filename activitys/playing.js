@@ -5,7 +5,7 @@ module.exports = {
     const activitys = [
 
       "壞了",
-      "女孩",
+      "我是女人",
       "男孩",
       "人生遊戲",
       "結束了",
