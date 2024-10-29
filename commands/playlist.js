@@ -14,7 +14,7 @@ module.exports = {
           .setDescription(`請先進入一個語音頻道`)
           .setTitle("你只能在語音頻道執行這個指令!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         return message.channel.send(errorEmbed);
@@ -26,7 +26,7 @@ module.exports = {
           .setDescription(`請先使用「*p (url)」將歌曲添加到播放清單`)
           .setTitle("播放清單中沒有歌曲!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         channel.send(errorEmbed);
@@ -60,7 +60,7 @@ module.exports = {
           .setDescription(listString)
           .setTitle("播放清單")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         serverQueue.textChannel.send(songListEmbed);

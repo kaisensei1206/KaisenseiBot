@@ -9,7 +9,7 @@ module.exports = {
         .setDescription("I am ready! I am ready! over over!")
         .setTitle("我在線上")
         .setFooter(
-          "SawaBot"
+          "KaisenseiBotBot"
           //"https://i.imgur.com/wSTFkRM.png"
         );
       console.log(message.author.username + " check test");

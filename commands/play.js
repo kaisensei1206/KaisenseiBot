@@ -18,7 +18,7 @@ module.exports = {
           .setDescription(`請先進入一個語音頻道!`)
           .setTitle("你要在語音頻道中才能播放歌曲!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         console.log(message.author.username + " play voice channel");
@@ -32,7 +32,7 @@ module.exports = {
           .setDescription(`請設定頻道權限給我!`)
           .setTitle("我需要權限才能加入這個頻道和在裡面講話!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         console.log(message.author.username + " play song no permisstion");
@@ -80,12 +80,12 @@ module.exports = {
           .setTitle("已加入到播放隊列!")
           //.setURL("https://discord.js.org/")
           // .setAuthor(
-          //   "SawaBot"
+          //   "KaisenseiBotBot"
           //   //"https://i.imgur.com/wSTFkRM.png",
           //   //"https://discord.js.org"
           // )
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         return message.channel.send(addSongEmbed);
@@ -106,7 +106,7 @@ module.exports = {
         .setColor("#FFF148")
         .setDescription(`打「*p (url)」再次召喚我來播放歌曲`)
         .setTitle("全部歌曲已播放完畢!")
-        .setFooter("SawaBot");
+        .setFooter("KaisenseiBotBot");
       serverQueue.textChannel.send(errorEmbed);
       queue.delete(guild.id);
       return;
@@ -126,7 +126,7 @@ module.exports = {
       .setColor("#FFF148")
       .setDescription(`**[${song.title}](${song.url})**`)
       .setTitle("現在為你播放")
-      .setFooter("SawaBot");
+      .setFooter("KaisenseiBotBot");
   
     if (playSongEmbed) {
       serverQueue.textChannel.send(playSongEmbed);

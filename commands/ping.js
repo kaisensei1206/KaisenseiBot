@@ -34,7 +34,7 @@ module.exports = {
         )
         .setTitle("伺服器延遲：")
         .setFooter(
-          "SawaBot"
+          "KaisenseiBotBot"
           //"https://i.imgur.com/wSTFkRM.png"
         );
       console.log(message.author.username + " check ping");

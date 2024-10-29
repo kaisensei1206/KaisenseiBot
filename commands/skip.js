@@ -12,7 +12,7 @@ module.exports = {
           .setDescription(`請先進入一個語音頻道`)
           .setTitle("你必須在語音頻道中才能停止播放歌曲!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         console.log(
@@ -26,7 +26,7 @@ module.exports = {
           .setDescription(`請先打「*p (url)」加歌曲到播放清單`)
           .setTitle("沒有歌曲可以跳過!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBotBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         console.log(message.author.username + " skip no songs");
@@ -53,7 +53,7 @@ module.exports = {
         .setDescription(`使用「*p (url)」再次呼叫我來播放歌曲`)
         .setTitle("全部歌曲已播放完畢!")
         .setFooter(
-          "SawaBot"
+          "KaisenseiBotBot"
           //"https://i.imgur.com/wSTFkRM.png"
         );
       serverQueue.textChannel.send(errorEmbed);
@@ -81,12 +81,12 @@ module.exports = {
       .setTitle("現在播放的歌曲")
       //.setURL("https://discord.js.org/")
       // .setAuthor(
-      //   "SawaBot"
+      //   "KaisenseiBotBot"
       //   //"https://i.imgur.com/wSTFkRM.png",
       //   //"https://discord.js.org"
       // )
       .setFooter(
-        "SawaBot"
+        "KaisenseiBotBot"
         //"https://i.imgur.com/wSTFkRM.png"
       );
     serverQueue.textChannel.send(playSongEmbed);

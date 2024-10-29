@@ -16,8 +16,7 @@ module.exports = {
           .setDescription(`請先進入一個語音頻道!`)
           .setTitle("你只能在語音頻道執行這個指令!")
           .setFooter(
-            "SawaBot"
-            //"https://i.imgur.com/wSTFkRM.png"
+            "KaisenseiBot"
           );
         return message.channel.send(errorEmbed);
       }
@@ -28,8 +27,8 @@ module.exports = {
           .setDescription(`請先使用「*p (url)」將歌曲添加到播放清單`)
           .setTitle("播放清單中沒有歌曲!")
           .setFooter(
-            "SawaBot"
-            //"https://i.imgur.com/wSTFkRM.png"
+            "KaisenseiBot"
+            
           );
         message.channel.send(errorEmbed);
       } else if (!numberExpression.test(args[1])) {
@@ -39,7 +38,7 @@ module.exports = {
           .setDescription(`打「*list」查下播放清單入面有乜歌`)
           .setTitle("輸入錯誤! 幫不了你，你需要輸入數字!")
           .setFooter(
-            "SawaBot"
+            "KaisenseiBot"
             //"https://i.imgur.com/wSTFkRM.png"
           );
         return message.reply(errorEmbed);
@@ -59,7 +58,7 @@ module.exports = {
             .setDescription(`恭喜你先!`)
             .setTitle("已經幫你刪除第" + args[1] + "首歌")
             .setFooter(
-              "SawaBot"
+              "KaisenseiBot"
               //"https://i.imgur.com/wSTFkRM.png"
             );
           serverQueue.textChannel.send(errorEmbed);
@@ -71,7 +70,7 @@ module.exports = {
             )
             .setTitle("幫不了你，找不到你要刪除的歌曲! 不要再打錯了!")
             .setFooter(
-              "SawaBot"
+              "KaisenseiBot"
               //"https://i.imgur.com/wSTFkRM.png"
             );
           return message.reply(errorEmbed);

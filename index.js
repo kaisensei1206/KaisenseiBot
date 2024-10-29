@@ -67,7 +67,7 @@ function setActivity() {
   const activitysName = Math.floor(Math.random() * Math.floor(3));
   const activitys = client.activitys.get(activitysName.toString());
   //const activitys = client.activitys.get("1");
-  http.get("http://sawabot.glitch.me/");
+  http.get("http://KaisenseiBotbot.glitch.me/");
   //http.get("http://localhost:3000");
   console.log("setActivity" + activitysName, activitys.description);
   activitys.execute(client);
@@ -102,15 +102,15 @@ client.on("message", async (message) => {
       .setTitle("我不知道你打了什麼!")
       //.setURL("https://discord.js.org/")
       // .setAuthor(
-      //   "SawaBot"
+      //   "KaisenseiBotBot"
       //   //"https://i.imgur.com/wSTFkRM.png",
       //   //"https://discord.js.org"
       // )
       .setFooter(
-        "SawaBot"
+        "KaisenseiBotBot"
         //"https://i.imgur.com/wSTFkRM.png"
       );
-    //message.reply("唔知你打乜L野! 打「*h」睇下有乜指令先!");
+
     console.log(message.author.username + " wrong command");
     message.reply(errorEmbed);
   }
