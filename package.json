@@ -1,13 +1,13 @@
 {
   "name": "discordmusicbot",
   "version": "1.0.0",
-  "description": "discord bot by NG KWAN LOK",
+  "description": "discord bot by FAN KAI WEI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "NG KWAN LOK",
+  "author": "FAN KAI WEI",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
